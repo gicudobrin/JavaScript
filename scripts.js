@@ -174,11 +174,3 @@
 // }
 // document.write("<h1>" + getRandomNumber(1,24) + "</h1>");
 // document.write("<h1>" + getRandomNumber("nine", 9) + "</h1>");
-
-
-
-
-
-
-
- 	
