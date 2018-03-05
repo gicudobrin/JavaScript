@@ -1,3 +1,12 @@
+ECMASCRIPT2015  ES6
+
+const = ['Monday'];
+
+//using let with for loops
+
+
+
+
 let orderCount = 0;
 const takeOrder = (topping, crustType) => {
   orderCount = orderCount + 1;
