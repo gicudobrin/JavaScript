@@ -6,19 +6,19 @@
 	<body>
 		<h1 id = "myHeading">JavaScript and the DOM</h1>
 		<p>Making a webpage interactive</p>
-		<button id = "toggleList">Hide List</button>
+		<input type = "text" id="myTextInput">
+		<button id = "myButton">Change headline color</button>
 		<div class = "list">
-			<p class = "description">Things that are purple:</p>
-			<input type = "text" class = "description">
-			<button class = "description">Change the description</button>
+			<p title="label" class = "description">Things that are purple:</p>
 			<ul>
 				<li>grapes</li>
+				<li class="error-not-purple">oranges</li>
 				<li>amethyst</li>
 				<li>lavender</li>
+				<li class="error-not-purple">fire trucks</li>
+				<li class="error-not-purple">snow</li>
 				<li>plums</li>
 			</ul>
-			<input type = "text" class = "addItemInput">
-			<button class = "addItemButton">Add item</button>
 		</div>
 		<script src = "app.js"></script>
 	</body>
