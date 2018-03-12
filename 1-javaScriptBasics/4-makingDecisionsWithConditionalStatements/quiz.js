@@ -29,12 +29,12 @@
 // }
 
 
-//Quiz application
+// Quiz application
 
-//quiz begin, no answers correct
+// quiz begin, no answers correct
 // var correct = 0;
 
-// // //ask questions
+// ask questions
 
 // var answer1 = prompt("Name a programming language that's also a gem");
 // if (answer1.toUpperCase() === "RUBY"){
@@ -57,7 +57,7 @@
 // 	correct += 1;
 // }
 
-// //output results
+// output results
 
 // document.write("<h1>You got " + correct + " out of 5 questions correct</h1><br>");
 

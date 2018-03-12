@@ -3,7 +3,7 @@ const $odd = $('a:odd');
 const $secureLinks = $('a[href^="https://"]');
 // $secureLinks.hide();
 
-const $pdfs = $('a[href$=".pdf')
+const $pdfs = $('a[href$=".pdf');
 //$pdfs.hide();
 
 //$odd.css('backgroundColor', 'red');
@@ -14,7 +14,6 @@ $pdfs.on('click', function(event){
 	if ($(':checked').length === 0) {
 	event.preventDefault();
 	alert('Please check the box to allow pdf downloads');
-
 	}
 })
 

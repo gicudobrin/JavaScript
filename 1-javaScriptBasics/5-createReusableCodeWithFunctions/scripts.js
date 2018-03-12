@@ -43,7 +43,7 @@
 // }
 // document.write( "<h1>" + getArea(10,2.5,"square meters") + "</h1>");
 
-//create a function that return the maximum between two numbers.
+// create a function that return the maximum between two numbers.
 // function max(num1, num2){
 //   if (num1 > num2){
 //   	return (num1 + " is the maximum number");
