@@ -91,3 +91,36 @@ ernie.owner = new Owner('Diana', 'str. Castanilor, nr. 17.');
 ernie.owner.phone = '(555) 22222-222';
 
 console.log(ernie.owner);
+
+
+/*class Pet{
+	constructor(animal, age){
+		this.animal = animal;
+		this.age = age;
+		// so
+	}
+	speak(){
+		console.log(this.animal);
+	}
+}
+
+const boby = new Pet('dog', 12);
+console.log(boby.age);
+boby.speak();
+boby.animal;
+*/
+
+const x=0;
+console.log(x);
+const ana = new Object();
+ana.name = 'Diana';
+ana.age = 12;
+ana.address = 'Romania, Craiova';
+ana.school = 'High school';
+ana.weight = 78;
+console.log(ana);
+
+
+for(i in ana){
+	console.log(i);
+}
