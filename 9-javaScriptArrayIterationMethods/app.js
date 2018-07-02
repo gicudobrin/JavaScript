@@ -59,9 +59,22 @@
 // console.log(sNames);
 
 
-const numbers = [1,2,3,4,5];
-const no3 = numbers.filter(number => number !== 3);
-console.log(no3); 
+// const numbers = [1,2,3,4,5];
+// const no3 = numbers.filter(number => number !== 3);
+// console.log(no3); 
 
-const evens = numbers.filter(number => number % 2 === 0);
-console.log(evens);
+// const evens = numbers.filter(number => number % 2 === 0);
+// console.log(evens);
+
+
+function fact(n){
+	if (n === 0) {
+		return 1;
+	} else {
+		return n * fact(n-1);
+	}
+}
+
+console.log(fact(0));
+console.log(fact(2));
+console.log(fact(3));

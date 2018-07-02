@@ -1,4 +1,4 @@
-ECMASCRIPT2015  ES6
+//ECMASCRIPT2015  ES6
 
 const = ['Monday'];
 
