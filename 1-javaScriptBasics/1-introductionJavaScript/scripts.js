@@ -1,4 +1,4 @@
-alert('Hello from Treehouse');
+alert('Hello from Claudiu');
 document.write('<h1>Welcome to JavaScript Basics');
 alert('Thanks for visiting.');
 console.log('Program complete');
